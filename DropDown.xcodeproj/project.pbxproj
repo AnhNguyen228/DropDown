@@ -13,7 +13,6 @@
 		0AB5D8881D0EEEFF002D3A17 /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB5D87E1D0EEEFF002D3A17 /* DPDConstants.swift */; };
 		0AB5D8891D0EEEFF002D3A17 /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB5D87F1D0EEEFF002D3A17 /* DPDKeyboardListener.swift */; };
 		0AB5D88A1D0EEEFF002D3A17 /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB5D8801D0EEEFF002D3A17 /* DPDUIView+Extension.swift */; };
-		0AB5D88B1D0EEEFF002D3A17 /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AB5D8821D0EEEFF002D3A17 /* DropDownCell.xib */; };
 		0AB5D88C1D0EEEFF002D3A17 /* DropDown+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB5D8841D0EEEFF002D3A17 /* DropDown+Appearance.swift */; };
 		0AB5D88D1D0EEEFF002D3A17 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB5D8851D0EEEFF002D3A17 /* DropDown.swift */; };
 		0AB5D88E1D0EEEFF002D3A17 /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB5D8861D0EEEFF002D3A17 /* DropDownCell.swift */; };
@@ -25,6 +24,7 @@
 		0AB5D89A1D0EF15D002D3A17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB5D8971D0EF15D002D3A17 /* ViewController.swift */; };
 		0AB5D8A11D0EF173002D3A17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AB5D89F1D0EF173002D3A17 /* Main.storyboard */; };
 		0AC1C33A1B6B884100A8DC0D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AC1C3391B6B884100A8DC0D /* Images.xcassets */; };
+		A4C660AA2B453C29008E8418 /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4C660A92B453C29008E8418 /* DropDownCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,7 +71,6 @@
 		0AB5D87E1D0EEEFF002D3A17 /* DPDConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPDConstants.swift; sourceTree = "<group>"; };
 		0AB5D87F1D0EEEFF002D3A17 /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPDKeyboardListener.swift; sourceTree = "<group>"; };
 		0AB5D8801D0EEEFF002D3A17 /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DPDUIView+Extension.swift"; sourceTree = "<group>"; };
-		0AB5D8821D0EEEFF002D3A17 /* DropDownCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DropDownCell.xib; sourceTree = "<group>"; };
 		0AB5D8841D0EEEFF002D3A17 /* DropDown+Appearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DropDown+Appearance.swift"; sourceTree = "<group>"; };
 		0AB5D8851D0EEEFF002D3A17 /* DropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDown.swift; sourceTree = "<group>"; };
 		0AB5D8861D0EEEFF002D3A17 /* DropDownCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDownCell.swift; sourceTree = "<group>"; };
@@ -81,6 +80,7 @@
 		0AB5D8971D0EF15D002D3A17 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0AB5D8A01D0EF173002D3A17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0AC1C3391B6B884100A8DC0D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Demo/Images.xcassets; sourceTree = "<group>"; };
+		A4C660A92B453C29008E8418 /* DropDownCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DropDownCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,7 +194,7 @@
 		0AB5D8811D0EEEFF002D3A17 /* resources */ = {
 			isa = PBXGroup;
 			children = (
-				0AB5D8821D0EEEFF002D3A17 /* DropDownCell.xib */,
+				A4C660A92B453C29008E8418 /* DropDownCell.xib */,
 			);
 			path = resources;
 			sourceTree = "<group>";
@@ -345,7 +345,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AB5D88B1D0EEEFF002D3A17 /* DropDownCell.xib in Resources */,
+				A4C660AA2B453C29008E8418 /* DropDownCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
